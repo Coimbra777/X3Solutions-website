@@ -10278,3 +10278,20 @@ textarea:-ms-input-placeholder {
 .progress-wrap-3 svg.progress-circle path {
   stroke: #ff5538;
 }
+
+.whats {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  animation: floatAnimation 1.5s ease infinite alternate; /* Definindo a animação */
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px); /* Altere este valor conforme desejado */
+  }
+}
